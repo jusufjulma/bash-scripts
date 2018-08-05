@@ -1,0 +1,15 @@
+#! /bin/bash
+
+if [ $1 -eq 1 ]
+then
+  echo "Reading mode engaged"
+  xrandr --output DVI-0 --rotate left
+  xrandr --output DVI-0 --brightness 0.5
+fi
+
+if [ $1 -eq 0 ]
+then
+  echo "reading mode disengaged"
+  xrandr --output DVI-0 --rotate normal
+  xrandr --output DVI-0 --brightness 1
+fi
