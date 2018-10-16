@@ -1,2 +1,2 @@
 # bash-scripts
-Some automation scripts
+Some scripts to reduce clicking
